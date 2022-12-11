@@ -4,7 +4,7 @@
 </a>
 
 <a href="https://github.com/HappyBravo">
-  <img align="right" width="25%" alt="🦑" src="https://count.getloli.com/get/@:HappyBravo?theme=rule34">
+  <img align="right" width="29%" alt="🦑" src="https://count.getloli.com/get/@:HappyBravo?theme=rule34">
 </a>
 
 <br/>
