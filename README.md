@@ -1,6 +1,6 @@
 
 <a href="https://github.com/HappyBravo">
-  <img align="center" width="49%" src="./header.svg" />
+  <img align="center" width="55%" src="./header.svg" />
 </a>
 
 <a href="https://github.com/HappyBravo">
