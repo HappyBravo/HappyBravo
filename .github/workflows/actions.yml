@@ -19,7 +19,7 @@ jobs:
           user: HappyBravo
           base: achievements
           plugin_achievements: yes
-          plugin_achievements_threshold: C      # Display achievements with rank B or higher
+          plugin_achievements_threshold: B      # Display achievements with rank B or higher
           plugin_achievements_secrets: yes      # Display unlocked secrets achievements
           plugin_achievements_display: compact  # Use compact display
           plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
@@ -142,7 +142,7 @@ jobs:
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
-  anilist:
+  anilist-characters:
     runs-on : ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -152,8 +152,25 @@ jobs:
           base: ""
           plugin_anilist: yes
           plugin_anilist_sections: characters
-          plugin_anilist_limit_characters: 22  
+          plugin_anilist_limit_characters: 33  
           
           # Options
-          user : Comrade750
+          user : Comrade750 # THIS IS NOT ME
           template : classic
+          
+  anilist-fav-anime-and-curr-watching:
+     runs-on : ubuntu-latest
+     steps:
+        - uses: lowlighter/metrics@latest
+          with:
+            filename: metrics.plugin.anilist.svg
+            token: NOT_NEEDED
+            base: ""
+            plugin_anilist: yes
+            plugin_anilist_medias: anime
+            plugin_anilist_sections: favorites, watching
+            plugin_anilist_limit: 5
+            
+            # Options
+            user : Comrade750 # THIS IS NOT ME
+            template : classic
