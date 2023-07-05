@@ -120,7 +120,7 @@ jobs:
           user: HappyBravo
           template: classic
           base: ""
-          plugin_languages_indepth: yes
+          # plugin_languages_indepth: yes
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_followup: yes
           plugin_languages: yes
