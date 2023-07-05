@@ -124,7 +124,7 @@ jobs:
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_followup: yes
           plugin_languages: yes
-          plugin_languages_threshold: 2%
+          # plugin_languages_threshold: 2%
 
           
   repositories:
