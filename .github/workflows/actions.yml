@@ -143,13 +143,29 @@ jobs:
           template: classic
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+          
+  Starred-icons:
+    runs-on : ubuntu-latest
+    steps:
+      - uses : lowlight/metrics@latest
+        with:
+            filename: starredtopics_icons.svg
+            token: NOT_NEEDED
+            # Options
+            user: HappyBravo
+            template: classic
+            base: ""
+            plugin_topics: yes
+            plugin_topics_limit: 0
+            plugin_topics_mode: icons
+            plugin_topics_sort : recent
 
   anilist-characters:
     runs-on : ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.anilist.characters.svg
+          filename: anilist_characters.svg
           token: NOT_NEEDED
           base: ""
           plugin_anilist: yes
@@ -165,7 +181,7 @@ jobs:
      steps:
         - uses: lowlighter/metrics@latest
           with:
-            filename: metrics.plugin.anilist.svg
+            filename: anilist.svg
             token: NOT_NEEDED
             base: ""
             plugin_anilist: yes
@@ -185,9 +201,10 @@ jobs:
             plugin_leetcode_user : Happy_02
             user : Happy_02
             template : classic
-            filename: metrics.plugin.leetcode.svg
+            filename: leetcode.svg
             token: NOT_NEEDED
             base: ""
             plugin_leetcode: yes
             plugin_leetcode_sections: solved, skills, recent
+  
 
