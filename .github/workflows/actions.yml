@@ -182,6 +182,9 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+            plugin_leetcode_user : Happy_02
+            user : Happy_02
+            template : classic
             filename: metrics.plugin.leetcode.svg
             token: NOT_NEEDED
             base: ""
