@@ -147,7 +147,7 @@ jobs:
   Starred-icons:
     runs-on : ubuntu-latest
     steps:
-      - uses : lowlight/metrics@latest
+      - uses : lowlighter/metrics@latest
         with:
             filename: starredtopics_icons.svg
             token: NOT_NEEDED
