@@ -28,9 +28,9 @@
   <img align="center" width="49%" src="./github-habits.svg" />
 </a>
 
-<a href="#">
+<!-- <a href="#">
     <img align="center" width="49%" src="./leetcode.svg" />
-</a>
+</a> -->
 <a href="#">
     <img align="center" width="49%" src="./achievements.svg" />
 </a>
