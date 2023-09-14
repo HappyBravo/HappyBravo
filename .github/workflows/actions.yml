@@ -162,51 +162,51 @@ jobs:
 #             plugin_topics_mode: icons
 #             # plugin_topics_sort : recent
 
-  anilist-characters:
-    runs-on : ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: anilist_characters.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_anilist: yes
-          plugin_anilist_sections: characters
-          plugin_anilist_limit_characters: 33  
+  # anilist-characters:
+  #   runs-on : ubuntu-latest
+  #   steps:
+  #     - uses: lowlighter/metrics@latest
+  #       with:
+  #         filename: anilist_characters.svg
+  #         token: NOT_NEEDED
+  #         base: ""
+  #         plugin_anilist: yes
+  #         plugin_anilist_sections: characters
+  #         plugin_anilist_limit_characters: 33  
           
-          # Options
-          user : Comrade750 # THIS IS NOT ME
-          template : classic
+  #         # Options
+  #         user : Comrade750 # THIS IS NOT ME
+  #         template : classic
           
-  anilist-fav-anime-and-curr-watching:
-     runs-on : ubuntu-latest
-     steps:
-        - uses: lowlighter/metrics@latest
-          with:
-            filename: anilist.svg
-            token: NOT_NEEDED
-            base: ""
-            plugin_anilist: yes
-            plugin_anilist_medias: anime
-            plugin_anilist_sections: favorites, watching
-            plugin_anilist_limit: 5
+  # anilist-fav-anime-and-curr-watching:
+  #    runs-on : ubuntu-latest
+  #    steps:
+  #       - uses: lowlighter/metrics@latest
+  #         with:
+  #           filename: anilist.svg
+  #           token: NOT_NEEDED
+  #           base: ""
+  #           plugin_anilist: yes
+  #           plugin_anilist_medias: anime
+  #           plugin_anilist_sections: favorites, watching
+  #           plugin_anilist_limit: 5
             
-            # Options
-            user : Comrade750 # THIS IS NOT ME
-            template : classic
+  #           # Options
+  #           user : Comrade750 # THIS IS NOT ME
+  #           template : classic
             
-  LeetCode-stats:
-    runs-on : ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-            plugin_leetcode_user : Happy_02
-            user : Happy_02
-            template : classic
-            filename: leetcode.svg
-            token: NOT_NEEDED
-            base: ""
-            plugin_leetcode: yes
-            plugin_leetcode_sections: solved, skills, recent
+  # LeetCode-stats:
+  #   runs-on : ubuntu-latest
+  #   steps:
+  #     - uses: lowlighter/metrics@latest
+  #       with:
+  #           plugin_leetcode_user : Happy_02
+  #           user : Happy_02
+  #           template : classic
+  #           filename: leetcode.svg
+  #           token: NOT_NEEDED
+  #           base: ""
+  #           plugin_leetcode: yes
+  #           plugin_leetcode_sections: solved, skills, recent
   
 
