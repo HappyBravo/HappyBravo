@@ -1,3 +1,9 @@
+<div align="center" width="50">
+  <!-- TAKEN FROM "https://github.com/DenverCoder1/readme-typing-svg" -->
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=500&size=50&duration=3000&pause=800&center=true&vCenter=true&width=1800&height=80&lines=Hi+!++%F0%9F%91%8B;I+am+Happy.+%F0%9F%98%8A;Coding+for+fun.+%F0%9F%98%85;%E3%81%9D%E3%81%97%E3%81%A6%E3%80%82%E3%80%82%E3%80%82+(soshite...);%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%A7%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%92%E8%A6%9A%E3%81%88%E3%81%9F+%F0%9F%98%BA+(Anime+de+nihongo+o+oboeta+%F0%9F%98%BA)+" alt="Typing SVG" /></a>
+</div>
+
+---
 
 <a href="#">
   <img align="center" width="55%" src="./header.svg" />
@@ -93,3 +99,5 @@ Here are some ideas to get you started:
 ```math
 \ce{$&#x5C;unicode[goombafont; color:red; pointer-events: none; z-index: -10; position: fixed; top: 0; left: 0; height: 100vh; object-fit: cover; background-size: cover; width: 130vw; opacity: 0.5; background: url('https://github.com/HappyBravo/HappyBravo/blob/main/chika.gif?raw=true');]{x0000}$}
 --->
+
+---
